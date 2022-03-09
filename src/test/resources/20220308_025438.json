@@ -1,0 +1,845 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "Sales Dashboard",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{\\\"110\\\": {\\\"__time_range\\\": \\\"No filter\\\"}}\", \"filter_scopes\": {\"110\": {\"ProductLine\": {\"scope\": [\"TAB-4fthLQmdX\"], \"immune\": []}, \"DealSize\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"__time_range\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}}}, \"color_scheme\": \"supersetColors\", \"label_colors\": {\"Medium\": \"#1FA8C9\", \"Small\": \"#454E7C\", \"Large\": \"#5AC189\", \"SUM(SALES)\": \"#1FA8C9\", \"Classic Cars\": \"#454E7C\", \"Vintage Cars\": \"#5AC189\", \"Motorcycles\": \"#FF7F44\", \"Trucks and Buses\": \"#666666\", \"Planes\": \"#E04355\", \"Ships\": \"#FCC700\", \"Trains\": \"#A868B7\"}, \"remote_id\": 10}",
+                "position_json": "{\"CHART-1NOOLm5YPs\": {\"children\": [], \"id\": \"CHART-1NOOLm5YPs\", \"meta\": {\"chartId\": 85, \"height\": 25, \"sliceName\": \"Total Items Sold\", \"sliceNameOverride\": \"Total Products Sold\", \"uuid\": \"c3d643cd-fd6f-4659-a5b7-59402487a8d0\", \"width\": 2}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-d-E0Zc1cTH\", \"ROW-Tyv02UA_6W\", \"COLUMN-8Rp54B6ikC\"], \"type\": \"CHART\"}, \"CHART-AYpv8gFi_q\": {\"children\": [], \"id\": \"CHART-AYpv8gFi_q\", \"meta\": {\"chartId\": 84, \"height\": 91, \"sliceName\": \"Number of Deals (for each Combination)\", \"uuid\": \"bd20fc69-dd51-46c1-99b5-09e37a434bf1\", \"width\": 3}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-4fthLQmdX\", \"ROW-0l1WcDzW3\"], \"type\": \"CHART\"}, \"CHART-KKT9BsnUst\": {\"children\": [], \"id\": \"CHART-KKT9BsnUst\", \"meta\": {\"chartId\": 121, \"height\": 59, \"sliceName\": \"Quarterly Sales (By Product Line)\", \"sliceNameOverride\": \"Quarterly Revenue (By Product Line)\", \"uuid\": \"db9609e4-9b78-4a32-87a7-4d9e19d51cd8\", \"width\": 7}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-d-E0Zc1cTH\", \"ROW-oAtmu5grZ\"], \"type\": \"CHART\"}, \"CHART-OJ9aWDmn1q\": {\"children\": [], \"id\": \"CHART-OJ9aWDmn1q\", \"meta\": {\"chartId\": 106, \"height\": 91, \"sliceName\": \"Proportion of Revenue by Product Line\", \"sliceNameOverride\": \"Proportion of Monthly Revenue by Product Line\", \"uuid\": \"08aff161-f60c-4cb3-a225-dc9b1140d2e3\", \"width\": 6}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-4fthLQmdX\", \"ROW-0l1WcDzW3\"], \"type\": \"CHART\"}, \"CHART-YFg-9wHE7s\": {\"children\": [], \"id\": \"CHART-YFg-9wHE7s\", \"meta\": {\"chartId\": 104, \"height\": 63, \"sliceName\": \"Seasonality of Revenue (per Product Line)\", \"uuid\": \"cf0da099-b3ab-4d94-ab62-cf353ac3c611\", \"width\": 6}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-4fthLQmdX\", \"ROW-E7MDSGfnm\"], \"type\": \"CHART\"}, \"CHART-_LMKI0D3tj\": {\"children\": [], \"id\": \"CHART-_LMKI0D3tj\", \"meta\": {\"chartId\": 101, \"height\": 62, \"sliceName\": \"Revenue by Deal SIze\", \"sliceNameOverride\": \"Monthly Revenue by Deal SIze\", \"uuid\": \"f065a533-2e13-42b9-bd19-801a21700dff\", \"width\": 6}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-4fthLQmdX\", \"ROW-E7MDSGfnm\"], \"type\": \"CHART\"}, \"CHART-id4RGv80N-\": {\"children\": [], \"id\": \"CHART-id4RGv80N-\", \"meta\": {\"chartId\": 94, \"height\": 40, \"sliceName\": \"Total Items Sold (By Product Line)\", \"sliceNameOverride\": \"Total Products Sold (By Product Line)\", \"uuid\": \"b8b7ca30-6291-44b0-bc64-ba42e2892b86\", \"width\": 2}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-d-E0Zc1cTH\", \"ROW-oAtmu5grZ\", \"COLUMN-G6_2DvG8aK\"], \"type\": \"CHART\"}, \"CHART-iyvXMcqHt9\": {\"children\": [], \"id\": \"CHART-iyvXMcqHt9\", \"meta\": {\"chartId\": 110, \"height\": 39, \"sliceName\": \"Filter\", \"uuid\": \"a5689df7-98fc-7c51-602c-ebd92dc3ec70\", \"width\": 2}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-4fthLQmdX\", \"ROW-0l1WcDzW3\", \"COLUMN-jlNWyWCfTC\"], \"type\": \"CHART\"}, \"CHART-j24u8ve41b\": {\"children\": [], \"id\": \"CHART-j24u8ve41b\", \"meta\": {\"chartId\": 74, \"height\": 59, \"sliceName\": \"Overall Sales (By Product Line)\", \"sliceNameOverride\": \"Total Revenue (By Product Line)\", \"uuid\": \"09c497e0-f442-1121-c9e7-671e37750424\", \"width\": 3}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-d-E0Zc1cTH\", \"ROW-oAtmu5grZ\"], \"type\": \"CHART\"}, \"CHART-lFanAaYKBK\": {\"children\": [], \"id\": \"CHART-lFanAaYKBK\", \"meta\": {\"chartId\": 75, \"height\": 26, \"sliceName\": \"Total Revenue\", \"uuid\": \"7b12a243-88e0-4dc5-ac33-9a840bb0ac5a\", \"width\": 3}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-d-E0Zc1cTH\", \"ROW-Tyv02UA_6W\", \"COLUMN-8Rp54B6ikC\"], \"type\": \"CHART\"}, \"CHART-vomBOiI7U9\": {\"children\": [], \"id\": \"CHART-vomBOiI7U9\", \"meta\": {\"chartId\": 81, \"height\": 53, \"sliceName\": \"Quarterly Sales\", \"sliceNameOverride\": \"Quarterly Revenue\", \"uuid\": \"692aca26-a526-85db-c94c-411c91cc1077\", \"width\": 7}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-d-E0Zc1cTH\", \"ROW-Tyv02UA_6W\"], \"type\": \"CHART\"}, \"COLUMN-8Rp54B6ikC\": {\"children\": [\"CHART-lFanAaYKBK\", \"CHART-1NOOLm5YPs\"], \"id\": \"COLUMN-8Rp54B6ikC\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\", \"width\": 2}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-d-E0Zc1cTH\", \"ROW-Tyv02UA_6W\"], \"type\": \"COLUMN\"}, \"COLUMN-G6_2DvG8aK\": {\"children\": [\"CHART-id4RGv80N-\"], \"id\": \"COLUMN-G6_2DvG8aK\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\", \"width\": 2}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-d-E0Zc1cTH\", \"ROW-oAtmu5grZ\"], \"type\": \"COLUMN\"}, \"COLUMN-jlNWyWCfTC\": {\"children\": [\"MARKDOWN-HrzsMmvGQo\", \"CHART-iyvXMcqHt9\"], \"id\": \"COLUMN-jlNWyWCfTC\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\", \"width\": 3}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-4fthLQmdX\", \"ROW-0l1WcDzW3\"], \"type\": \"COLUMN\"}, \"DASHBOARD_VERSION_KEY\": \"v2\", \"GRID_ID\": {\"children\": [], \"id\": \"GRID_ID\", \"parents\": [\"ROOT_ID\"], \"type\": \"GRID\"}, \"HEADER_ID\": {\"id\": \"HEADER_ID\", \"meta\": {\"text\": \"Sales Dashboard\"}, \"type\": \"HEADER\"}, \"MARKDOWN--AtDSWnapE\": {\"children\": [], \"id\": \"MARKDOWN--AtDSWnapE\", \"meta\": {\"code\": \"# \\ud83d\\ude97 Vehicle Sales Dashboard \\ud83c\\udfcd\\n\\nThis example dashboard provides insight into the business operations of vehicle seller. The dataset powering this dashboard can be found [here on Kaggle](https://www.kaggle.com/kyanyoga/sample-sales-data).\\n\\n### Timeline\\n\\nThe dataset contains data on all orders from the 2003 and 2004 fiscal years, and some orders from 2005.\\n\\n### Products Sold\\n\\nThis shop mainly sells the following products:\\n\\n- \\ud83d\\ude97 Classic Cars\\n- \\ud83c\\udfce\\ufe0f Vintage Cars\\n- \\ud83c\\udfcd\\ufe0f Motorcycles\\n- \\ud83d\\ude9a Trucks & Buses \\ud83d\\ude8c\\n- \\ud83d\\udee9\\ufe0f Planes\\n- \\ud83d\\udea2 Ships\\n- \\ud83d\\ude88 Trains\", \"height\": 53, \"width\": 3}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-d-E0Zc1cTH\", \"ROW-Tyv02UA_6W\"], \"type\": \"MARKDOWN\"}, \"MARKDOWN-HrzsMmvGQo\": {\"children\": [], \"id\": \"MARKDOWN-HrzsMmvGQo\", \"meta\": {\"code\": \"# \\ud83d\\udd0d Filter Box\\n\\nDashboard filters are a powerful way to enable teams to dive deeper into their business operations data. This filter box helps focus the charts along the following variables:\\n\\n- Time Range: Focus in on a specific time period (e.g. a holiday or quarter)\\n- Product Line: Choose 1 or more product lines to see relevant sales data\\n- Deal Size: Zoom in on small, medium, and / or large sales deals\\n\\nThe filter box below \\ud83d\\udc47 is configured to only apply to the charts in this tab (**Exploratory**). You can customize the charts that this filter box applies to by:\\n\\n- entering Edit mode in this dashboard\\n- selecting the `...` in the top right corner\\n- selecting the **Set filter mapping** button\", \"height\": 50, \"width\": 3}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-4fthLQmdX\", \"ROW-0l1WcDzW3\", \"COLUMN-jlNWyWCfTC\"], \"type\": \"MARKDOWN\"}, \"ROOT_ID\": {\"children\": [\"TABS-e5Ruro0cjP\"], \"id\": \"ROOT_ID\", \"type\": \"ROOT\"}, \"ROW-0l1WcDzW3\": {\"children\": [\"COLUMN-jlNWyWCfTC\", \"CHART-OJ9aWDmn1q\", \"CHART-AYpv8gFi_q\"], \"id\": \"ROW-0l1WcDzW3\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-4fthLQmdX\"], \"type\": \"ROW\"}, \"ROW-E7MDSGfnm\": {\"children\": [\"CHART-YFg-9wHE7s\", \"CHART-_LMKI0D3tj\"], \"id\": \"ROW-E7MDSGfnm\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-4fthLQmdX\"], \"type\": \"ROW\"}, \"ROW-Tyv02UA_6W\": {\"children\": [\"COLUMN-8Rp54B6ikC\", \"CHART-vomBOiI7U9\", \"MARKDOWN--AtDSWnapE\"], \"id\": \"ROW-Tyv02UA_6W\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-d-E0Zc1cTH\"], \"type\": \"ROW\"}, \"ROW-oAtmu5grZ\": {\"children\": [\"COLUMN-G6_2DvG8aK\", \"CHART-KKT9BsnUst\", \"CHART-j24u8ve41b\"], \"id\": \"ROW-oAtmu5grZ\", \"meta\": {\"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\", \"TAB-d-E0Zc1cTH\"], \"type\": \"ROW\"}, \"TAB-4fthLQmdX\": {\"children\": [\"ROW-0l1WcDzW3\", \"ROW-E7MDSGfnm\"], \"id\": \"TAB-4fthLQmdX\", \"meta\": {\"text\": \"\\ud83e\\udded Exploratory\"}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\"], \"type\": \"TAB\"}, \"TAB-d-E0Zc1cTH\": {\"children\": [\"ROW-Tyv02UA_6W\", \"ROW-oAtmu5grZ\"], \"id\": \"TAB-d-E0Zc1cTH\", \"meta\": {\"text\": \"\\ud83c\\udfaf Sales Overview\"}, \"parents\": [\"ROOT_ID\", \"TABS-e5Ruro0cjP\"], \"type\": \"TAB\"}, \"TABS-e5Ruro0cjP\": {\"children\": [\"TAB-d-E0Zc1cTH\", \"TAB-4fthLQmdX\"], \"id\": \"TABS-e5Ruro0cjP\", \"meta\": {}, \"parents\": [\"ROOT_ID\"], \"type\": \"TABS\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "cleaned_sales_data",
+                            "datasource_type": "table",
+                            "id": 74,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"23__table\", \"donut\": true, \"granularity_sqla\": \"order_date\", \"groupby\": [\"product_line\"], \"innerRadius\": 41, \"label_line\": true, \"labels_outside\": true, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"sales\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 917, \"is_dttm\": false, \"optionName\": \"_col_Sales\", \"python_date_format\": null, \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"(Sales)\", \"optionName\": \"metric_3sk6pfj3m7i_64h77bs4sly\", \"sqlExpression\": null}, \"number_format\": \"SMART_NUMBER\", \"outerRadius\": 65, \"label_type\": \"key\", \"queryFields\": {\"groupby\": \"groupby\", \"metric\": \"metrics\"}, \"row_limit\": null, \"show_labels\": true, \"show_labels_threshold\": 2, \"show_legend\": false, \"slice_id\": 670, \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"pie\", \"remote_id\": 74, \"datasource_name\": \"cleaned_sales_data\", \"schema\": null, \"database_name\": \"examples\"}",
+                            "query_context": null,
+                            "slice_name": "Overall Sales (By Product Line)",
+                            "viz_type": "pie"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "cleaned_sales_data",
+                            "datasource_type": "table",
+                            "id": 75,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"23__table\", \"granularity_sqla\": \"order_date\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"sales\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 917, \"is_dttm\": false, \"optionName\": \"_col_Sales\", \"python_date_format\": null, \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"(Sales)\", \"optionName\": \"metric_twq59hf4ej_g70qjfmehsq\", \"sqlExpression\": null}, \"queryFields\": {\"metric\": \"metrics\"}, \"subheader\": \"\", \"subheader_font_size\": 0.15, \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"$,.2f\", \"remote_id\": 75, \"datasource_name\": \"cleaned_sales_data\", \"schema\": null, \"database_name\": \"examples\"}",
+                            "query_context": null,
+                            "slice_name": "Total Revenue",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "cleaned_sales_data",
+                            "datasource_type": "table",
+                            "id": 81,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": null, \"datasource\": \"23__table\", \"granularity_sqla\": \"order_date\", \"groupby\": [], \"label_colors\": {\"Classic Cars\": \"#5AC189\", \"Motorcycles\": \"#666666\", \"Planes\": \"#FCC700\", \"QuantityOrdered\": \"#454E7C\", \"SUM(Sales)\": \"#1FA8C9\", \"Ships\": \"#A868B7\", \"Trains\": \"#3CCCCB\", \"Trucks and Buses\": \"#E04355\", \"Vintage Cars\": \"#FF7F44\"}, \"left_margin\": \"auto\", \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"sales\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 917, \"is_dttm\": false, \"optionName\": \"_col_Sales\", \"python_date_format\": null, \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(Sales)\", \"optionName\": \"metric_tjn8bh6y44_7o4etwsqhal\", \"sqlExpression\": null}], \"order_desc\": true, \"queryFields\": {\"groupby\": \"groupby\", \"metrics\": \"metrics\"}, \"rich_tooltip\": true, \"rolling_type\": null, \"row_limit\": 10000, \"show_brush\": \"auto\", \"show_legend\": false, \"slice_id\": 668, \"time_compare\": null, \"time_grain_sqla\": \"P3M\", \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"bar\", \"x_axis_format\": \"%m/%d/%Y\", \"x_axis_label\": \"Quarter starting\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": null, \"y_axis_label\": \"Total Sales\", \"remote_id\": 81, \"datasource_name\": \"cleaned_sales_data\", \"schema\": null, \"database_name\": \"examples\"}",
+                            "query_context": null,
+                            "slice_name": "Quarterly Sales",
+                            "viz_type": "bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "cleaned_sales_data",
+                            "datasource_type": "table",
+                            "id": 84,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"deal_size\", \"all_columns_y\": \"product_line\", \"bottom_margin\": 100, \"canvas_image_rendering\": \"pixelated\", \"datasource\": \"23__table\", \"granularity_sqla\": \"order_date\", \"left_margin\": 75, \"linear_color_scheme\": \"schemePuBuGn\", \"metric\": \"count\", \"normalize_across\": \"heatmap\", \"normalized\": true, \"queryFields\": {\"metric\": \"metrics\"}, \"row_limit\": null, \"show_legend\": true, \"show_perc\": true, \"show_values\": true, \"slice_id\": 2810, \"sort_x_axis\": \"alpha_asc\", \"sort_y_axis\": \"alpha_asc\", \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"heatmap\", \"xscale_interval\": null, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"yscale_interval\": null, \"remote_id\": 84, \"datasource_name\": \"cleaned_sales_data\", \"schema\": null, \"database_name\": \"examples\"}",
+                            "query_context": null,
+                            "slice_name": "Number of Deals (for each Combination)",
+                            "viz_type": "heatmap"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "cleaned_sales_data",
+                            "datasource_type": "table",
+                            "id": 85,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"23__table\", \"granularity_sqla\": \"order_date\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"quantity_ordered\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 914, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"BIGINT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(Sales)\", \"optionName\": \"metric_twq59hf4ej_g70qjfmehsq\", \"sqlExpression\": null}, \"queryFields\": {\"metric\": \"metrics\"}, \"subheader\": \"\", \"subheader_font_size\": 0.15, \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 85, \"datasource_name\": \"cleaned_sales_data\", \"schema\": null, \"database_name\": \"examples\"}",
+                            "query_context": null,
+                            "slice_name": "Total Items Sold",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "cleaned_sales_data",
+                            "datasource_type": "table",
+                            "id": 94,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [], \"color_pn\": true, \"datasource\": \"23__table\", \"granularity_sqla\": \"order_date\", \"groupby\": [\"product_line\"], \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"quantity_ordered\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 914, \"is_dttm\": false, \"optionName\": \"_col_QuantityOrdered\", \"python_date_format\": null, \"type\": \"BIGINT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"# of Products Sold\", \"optionName\": \"metric_skdbciwba6g_z1r5w1pxlqj\", \"sqlExpression\": null}], \"order_by_cols\": [], \"order_desc\": true, \"percent_metrics\": null, \"queryFields\": {\"groupby\": \"groupby\", \"metrics\": \"metrics\"}, \"query_mode\": \"aggregate\", \"row_limit\": null, \"show_cell_bars\": true, \"slice_id\": 2807, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 94, \"datasource_name\": \"cleaned_sales_data\", \"schema\": null, \"database_name\": \"examples\"}",
+                            "query_context": null,
+                            "slice_name": "Total Items Sold (By Product Line)",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "cleaned_sales_data",
+                            "datasource_type": "table",
+                            "id": 101,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bar_stacked\": true, \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"contribution\": false, \"datasource\": \"23__table\", \"granularity_sqla\": \"order_date\", \"groupby\": [\"deal_size\"], \"label_colors\": {}, \"left_margin\": \"auto\", \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"sales\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 917, \"is_dttm\": false, \"optionName\": \"_col_Sales\", \"python_date_format\": null, \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"(Sales)\", \"optionName\": \"metric_3is69ofceho_6d0ezok7ry6\", \"sqlExpression\": null}], \"order_desc\": true, \"queryFields\": {\"groupby\": \"groupby\", \"metrics\": \"metrics\"}, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": null, \"show_brush\": \"auto\", \"show_legend\": true, \"time_grain_sqla\": \"P1M\", \"time_range\": \"2003-01-01T00:00:00 : 2005-06-01T00:00:00\", \"url_params\": {}, \"viz_type\": \"bar\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 101, \"datasource_name\": \"cleaned_sales_data\", \"schema\": null, \"database_name\": \"examples\"}",
+                            "query_context": null,
+                            "slice_name": "Revenue by Deal Size",
+                            "viz_type": "bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "cleaned_sales_data",
+                            "datasource_type": "table",
+                            "id": 104,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"23__table\", \"granularity_sqla\": \"order_date\", \"groupby\": [\"product_line\"], \"horizon_color_scale\": \"series\", \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"sales\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 917, \"is_dttm\": false, \"optionName\": \"_col_Sales\", \"python_date_format\": null, \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"(Sales)\", \"optionName\": \"metric_e3kxby3hnjs_nfd4adbcnsn\", \"sqlExpression\": null}], \"order_desc\": true, \"queryFields\": {\"groupby\": \"groupby\", \"metrics\": \"metrics\"}, \"row_limit\": null, \"series_height\": \"25\", \"slice_id\": 2811, \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"horizon\", \"remote_id\": 104, \"datasource_name\": \"cleaned_sales_data\", \"schema\": null, \"database_name\": \"examples\"}",
+                            "query_context": null,
+                            "slice_name": "Seasonality of Revenue (per Product Line)",
+                            "viz_type": "horizon"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "cleaned_sales_data",
+                            "datasource_type": "table",
+                            "id": 106,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"contribution\": true, \"datasource\": \"23__table\", \"granularity_sqla\": \"order_date\", \"groupby\": [\"product_line\"], \"label_colors\": {}, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"sales\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 917, \"is_dttm\": false, \"optionName\": \"_col_Sales\", \"python_date_format\": null, \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"(Sales)\", \"optionName\": \"metric_3is69ofceho_6d0ezok7ry6\", \"sqlExpression\": null}], \"order_desc\": true, \"queryFields\": {\"groupby\": \"groupby\", \"metrics\": \"metrics\"}, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": null, \"show_brush\": \"auto\", \"show_legend\": true, \"stacked_style\": \"stack\", \"time_grain_sqla\": \"P1M\", \"time_range\": \"2003-01-01T00:00:00 : 2005-06-01T00:00:00\", \"url_params\": {}, \"viz_type\": \"area\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 106, \"datasource_name\": \"cleaned_sales_data\", \"schema\": null, \"database_name\": \"examples\"}",
+                            "query_context": null,
+                            "slice_name": "Proportion of Revenue by Product Line",
+                            "viz_type": "area"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "cleaned_sales_data",
+                            "datasource_type": "table",
+                            "id": 110,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"23__table\", \"date_filter\": true, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"product_line\", \"key\": \"7oUjq15eQ\", \"label\": \"Product Line\", \"multiple\": true, \"searchAllOptions\": false}, {\"asc\": true, \"clearable\": true, \"column\": \"deal_size\", \"key\": \"c3hO6Eub8\", \"label\": \"Deal Size\", \"multiple\": true, \"searchAllOptions\": false}], \"granularity_sqla\": \"order_date\", \"queryFields\": {}, \"slice_id\": 671, \"time_range\": \"2003-01-01T00:00:00 : 2005-06-01T00:00:00\", \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 110, \"datasource_name\": \"cleaned_sales_data\", \"schema\": null, \"database_name\": \"examples\"}",
+                            "query_context": null,
+                            "slice_name": "Vehicle Sales Filter",
+                            "viz_type": "filter_box"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "cleaned_sales_data",
+                            "datasource_type": "table",
+                            "id": 121,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bar_stacked\": true, \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": null, \"datasource\": \"23__table\", \"granularity_sqla\": \"order_date\", \"groupby\": [\"product_line\"], \"label_colors\": {\"Classic Cars\": \"#5AC189\", \"Motorcycles\": \"#666666\", \"Planes\": \"#FCC700\", \"QuantityOrdered\": \"#454E7C\", \"SUM(Sales)\": \"#1FA8C9\", \"Ships\": \"#A868B7\", \"Trains\": \"#3CCCCB\", \"Trucks and Buses\": \"#E04355\", \"Vintage Cars\": \"#FF7F44\"}, \"left_margin\": \"auto\", \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"sales\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 917, \"is_dttm\": false, \"optionName\": \"_col_Sales\", \"python_date_format\": null, \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(Sales)\", \"optionName\": \"metric_tjn8bh6y44_7o4etwsqhal\", \"sqlExpression\": null}], \"order_desc\": true, \"queryFields\": {\"groupby\": \"groupby\", \"metrics\": \"metrics\"}, \"rich_tooltip\": true, \"rolling_type\": null, \"row_limit\": 10000, \"show_brush\": \"auto\", \"show_controls\": false, \"show_legend\": true, \"slice_id\": 2806, \"time_compare\": null, \"time_grain_sqla\": \"P3M\", \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"bar\", \"x_axis_format\": \"%m/%d/%Y\", \"x_axis_label\": \"Quarter starting\", \"x_ticks_layout\": \"45\\u00b0\", \"y_axis_bounds\": [null, null], \"y_axis_format\": null, \"y_axis_label\": \"Revenue ($)\", \"remote_id\": 121, \"datasource_name\": \"cleaned_sales_data\", \"schema\": null, \"database_name\": \"examples\"}",
+                            "query_context": null,
+                            "slice_name": "Quarterly Sales (By Product Line)",
+                            "viz_type": "bar"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "order_date",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 660,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "uuid": "03f77e94-6139-4f8e-ab49-e74aa8a3b5d5",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "price_each",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 661,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "3adcf4cd-8a37-4422-a682-76921586d3dc",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "sales",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 662,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "04596d7a-1e5e-4623-8649-89e616c84be7",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "address_line1",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 663,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "TEXT",
+                            "uuid": "2fa4e7f2-90df-47f1-a2ac-c367afb83e4c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "address_line2",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 664,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "TEXT",
+                            "uuid": "a2a6255f-ea3d-41d9-ac60-ef294077602c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "contact_last_name",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 665,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "TEXT",
+                            "uuid": "e246ab54-f551-4e3d-80e2-818f23da19ff",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "contact_first_name",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 666,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "TEXT",
+                            "uuid": "a37023b3-50ec-4324-b328-4ccc8a79f3cf",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "quantity_ordered",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 667,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "BIGINT",
+                            "uuid": "20802441-8386-4358-b76c-e4dc54195268",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "year",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 668,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "BIGINT",
+                            "uuid": "1c0b4930-eed6-440a-b512-ae03da3645aa",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "postal_code",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 669,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "TEXT",
+                            "uuid": "9aafa211-7100-48d2-997e-de446f855f1f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "customer_name",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 670,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "TEXT",
+                            "uuid": "2986c363-cd3c-4307-948d-daa7b01765f6",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "deal_size",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 671,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "TEXT",
+                            "uuid": "cccf0c99-aa5a-420e-ae34-41155931b353",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "state",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 672,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "TEXT",
+                            "uuid": "46c588bf-621e-4001-b358-686d722f27bc",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "status",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 673,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "TEXT",
+                            "uuid": "d94d98dc-a2f1-4c6c-99ab-863fb3787dcf",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "order_line_number",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 674,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "BIGINT",
+                            "uuid": "1bb61145-c0db-4e23-b611-896039c4a157",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "order_number",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 675,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "BIGINT",
+                            "uuid": "a7ae3ce6-78e2-433f-8868-c98b141b2b0f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "month",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 676,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "BIGINT",
+                            "uuid": "a70dc90e-6702-49db-8caa-ea36aa8017e1",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "quarter",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 677,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "BIGINT",
+                            "uuid": "e7a5b52f-de67-442d-90e1-ee294c1f0542",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "msrp",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 678,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "BIGINT",
+                            "uuid": "a10cc53c-5a08-4284-a6d4-f78af193339f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "product_code",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 679,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "TEXT",
+                            "uuid": "659d69d3-6e2e-441a-ac81-55c6fd21e495",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "product_line",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 680,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "TEXT",
+                            "uuid": "514d37ab-3d3a-4bab-afba-c307dc57f827",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "city",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 681,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "TEXT",
+                            "uuid": "9722a575-d46d-4c70-907e-f8d60ccdf595",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 682,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "TEXT",
+                            "uuid": "f52a02cd-e5b7-4e6c-a52f-5290051a5604",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "column_name": "phone",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 683,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "TEXT",
+                            "uuid": "1b0b3f27-2f14-450c-97ce-1ee3f8b72f90",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:07"
+                            },
+                            "column_name": "territory",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 684,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 19,
+                            "type": "TEXT",
+                            "uuid": "cf4e46ef-b2ca-414b-a746-b480f5848407",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": true,
+                "main_dttm_col": "order_date",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2022-03-07T07:34:04"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 26,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 19,
+                            "uuid": "c6ba6570-6d5e-4c5d-8f8b-3f4d05248b1d",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 19, \"database_name\": \"examples\"}",
+                "schema": null,
+                "sql": null,
+                "table_name": "cleaned_sales_data",
+                "template_params": null
+            }
+        }
+    ]
+}
